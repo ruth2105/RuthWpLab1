@@ -1,0 +1,107 @@
+
+<html>
+<head>
+    <title>Sample HTML Page</title>
+    <!-- Head section contains metadata and page title -->
+</head>
+<body>
+    <!-- Body tag represents the content of the webpage -->
+
+    <!-- Heading tags for defining headings of different levels -->
+    <h1>Hello</h1>
+
+<main>
+    <!-- Paragraph tag for defining text paragraphs -->
+      <p>    HTML, which stands for<em> HyperText Markup Language</em>, is <stong>the foundation of the World Wide Web</stong>. It provides the<u> structure</u> and<u> semantic</u> meaning to web content, allowing browsers to interpret and display information to users in a structured format. Through a system of <sup>tags</sup> and<sub> attributes</sub>, HTML enables the creation of text-based documents with elements like headings, paragraphs, links, images, lists, forms, and more. With its simplicity and versatility, HTML serves as the backbone of web development, empowering developers to create dynamic and interactive<i> websites </i>that engage users across the digital <ins>landscape</ins> .<del>abc</del></p>
+    .</p>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;"></canvas>
+
+    <script>
+        // Get the canvas element
+        var canvas = document.getElementById("myCanvas");
+        if (canvas.getContext) {
+            var ctx = canvas.getContext("2d");
+
+            // Draw a red rectangle
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(10, 10, 50, 50);
+
+            // Draw a green circle
+            ctx.beginPath();
+            ctx.arc(150, 50, 20, 0, 2 * Math.PI);
+            ctx.fillStyle = "#00FF00";
+            ctx.fill();
+        }
+    </script>
+
+    <!-- Anchor tag for creating hyperlinks -->
+    <a href="https://www.example.com">Visit Example</a>
+
+    <!-- Image tag for displaying images -->
+    <img src="photo.jpeg" alt="Sample Image">
+
+    <!-- List tags for creating ordered and unordered lists -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ol>
+    <h2>Video Example</h2>
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <h2>Audio Example</h2>
+    <audio controls>
+        <source src="free.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <!-- Table tag for creating tables -->
+    <table border="1">
+        <tr>
+            <th>name</th>
+            <th>id</th>
+        </tr>
+        <tr>
+            <td>ruth</td>
+            <td>ugr/22454/13</td>
+        </tr>
+    </table>
+    <article>
+        <h1>Main Article Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </article>
+
+    <aside>
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </aside>
+
+    <!-- Form tag for creating forms -->
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <button type="submit">Submit</button>
+    </form>
+</main>
+
+    <!-- Footer tag for defining footer content -->
+    <footer>
+        <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+</body>
+</html>
